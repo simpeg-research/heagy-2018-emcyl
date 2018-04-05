@@ -9,10 +9,22 @@ matrix:
 
 sudo: false
 
+before_install:
+  - if [ ${TRAVIS_PYTHON_VERSION:0:1} == "2" ]; then
+      wget http://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh -O miniconda.sh;
+    else
+      wget http://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
+    fi
+  - chmod +x miniconda.sh
+  - ./miniconda.sh -b -p $HOME/miniconda
+  - export PATH=$HOME/anaconda/bin:$HOME/miniconda/bin:$PATH
+  - conda update --yes conda
+
 install:
+  - conda install --quiet --yes pip python=$TRAVIS_PYTHON_VERSION numpy scipy matplotlib jupyter cython mkl
   - pip install -r requirements.txt
   - pip install -r requirements_dev.txt
   - export MPLBACKEND="agg"
 
 script:
-  - travis_wait 30 nosetests tests -v -s
+  - travis_wait 40 nosetests tests -v -s
