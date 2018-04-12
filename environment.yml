@@ -11,6 +11,7 @@ dependencies:
   - mkl
   - pip:
     - pymatsolver
+    - geoana
     - git+https://github.com/simpeg/discretize.git@feat/3Dcylmesh
     - git+https://github.com/simpeg/simpeg.git@em/feat/3Dcyl
     - git+https://github.com/simpeg-research/casingSimulations.git

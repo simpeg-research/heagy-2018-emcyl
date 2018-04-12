@@ -3,7 +3,7 @@ import testipynb
 import unittest
 
 NBDIR = os.path.sep.join(
-    os.path.abspath(__file__).split(os.path.sep)[:-2] + ['testing_notebooks']
+    os.path.abspath(__file__).split(os.path.sep)[:-2] + ['appendix_notebooks']
 )
 # IGNORE = ["TEM_VerticalConductor_1D_stiched_invrsion"]
 
