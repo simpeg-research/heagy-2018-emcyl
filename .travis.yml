@@ -12,7 +12,7 @@ sudo: false
 env:
   matrix:
     - TEST=tests/test_notebooks.py
-    - TEST=tests/test_testing_notebooks.py
+    - TEST=tests/test_appendix_notebooks.py
 
 before_install:
   - if [ ${TRAVIS_PYTHON_VERSION:0:1} == "2" ]; then
