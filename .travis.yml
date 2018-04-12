@@ -27,4 +27,4 @@ install:
   - export MPLBACKEND="agg"
 
 script:
-  - travis_wait 60 nosetests tests -v -s
+  - travis_wait 20 nosetests tests -v -s
