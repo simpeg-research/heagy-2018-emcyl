@@ -9,6 +9,11 @@ matrix:
 
 sudo: false
 
+env:
+  matrix:
+    - TEST=tests/test_notebooks.py
+    - TEST=tests/test_testing_notebooks.py
+
 before_install:
   - if [ ${TRAVIS_PYTHON_VERSION:0:1} == "2" ]; then
       wget http://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh -O miniconda.sh;
@@ -27,4 +32,4 @@ install:
   - export MPLBACKEND="agg"
 
 script:
-  - travis_wait 40 nosetests tests -v -s
+  - travis_wait 50 nosetests $TEST -v -s
