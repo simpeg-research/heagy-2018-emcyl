@@ -1,0 +1,16 @@
+name: emcyl-environment
+
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - scipy
+  - matplotlib
+  - ipywidgets
+  - mkl
+  - pip:
+    - pymatsolver
+    - git+https://github.com/simpeg/discretize.git@feat/3Dcylmesh
+    - git+https://github.com/simpeg/simpeg.git@em/feat/3Dcyl
+    - git+https://github.com/simpeg-research/casingSimulations.git
