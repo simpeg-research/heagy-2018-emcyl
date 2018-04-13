@@ -6,7 +6,7 @@ import unittest
 NBDIR = os.path.sep.join(
     os.path.abspath(__file__).split(os.path.sep)[:-2] + ['notebooks']
 )
-n_ignore = 3  # so we don't run over-time on travis, randomly ignore 3 notebooks
+n_ignore = 4  # so we don't run over-time on travis, randomly ignore 3 notebooks
 
 class TestNotebooks(unittest.TestCase):
 
