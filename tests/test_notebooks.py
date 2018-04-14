@@ -8,13 +8,10 @@ NBDIR = os.path.sep.join(
 )
 n_ignore = 5  # so we don't run over-time on travis, randomly ignore 3 notebooks
 
-class TestNotebooks(unittest.TestCase):
-
-    def test_notebooks(self):
-        Test = testipynb.TestNotebooks(directory=NBDIR, timeout=2000)
-        ignore_inds = np.random.choice(len(Test._nbnames), n_ignore)
-        Test.ignore = [Test._nbnames[i] for i in ignore_inds]
-        self.assertTrue(Test.run_tests())
+Test = testipynb.TestNotebooks(directory=NBDIR, timeout=1800)
+ignore_inds = np.random.choice(len(Test._nbnames), n_ignore)
+Test.ignore = [Test._nbnames[i] for i in ignore_inds]
+TestNotebooks = Test.get_tests()
 
 if __name__ == "__main__":
     unittest.main()
