@@ -10,7 +10,7 @@ NBDIR = os.path.sep.join(
 IGNORE = ["3_DC_Kaufman_finite_well", "5_FDEM_following_Augustin_Fig3"]
 
 n_ignore = 2  # so we don't run over-time on travis, randomly ignore 3 notebooks
-Test = testipynb.TestNotebooks(directory=NBDIR, timeout=2100)
+Test = testipynb.TestNotebooks(directory=NBDIR, timeout=3600)
 ignore_inds = np.random.choice(len(Test._nbnames) - len(IGNORE), n_ignore)
 test_nbnames = [t for t in Test._nbnames if t not in IGNORE]
 Test.ignore = IGNORE + [test_nbnames[i] for i in ignore_inds]
