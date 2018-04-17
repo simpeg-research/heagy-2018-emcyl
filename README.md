@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/simpeg-research/heagy_2018_emcyl.svg?branch=master)](https://travis-ci.org/simpeg-research/heagy_2018_emcyl)
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/simpeg-research/heagy_2018_emcyl/master)
+[![Azure Notebooks](https://notebooks.azure.com/launch.png)](https://notebooks.azure.com/import/gh/simpeg-research/heagy_2018_emcyl)
 
 Notebooks used to generate the examples shown in "Finite volume electromagnetic modelling on 2D and 3D cylindrical meshes with applications to steel cased wells" by [Lindsey J. Heagy](https://github.com/lheagy) and [Douglas W. Oldenburg](https://github.com/dougoldenburg). There are two directories of notebooks
 
