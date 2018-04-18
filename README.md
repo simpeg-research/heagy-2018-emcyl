@@ -1,4 +1,4 @@
-**| [Overview](#overview) | [Running the notebooks](#running-the-notebooks) | [Issues](#issues) | [License](#license) |**
+**| [Overview](#overview) | [Launching the notebooks](#launching-the-notebooks) | [Running the notebooks](#running-the-notebooks) | [Issues](#issues) | [License](#license) |**
 
 # heagy_2018_emcyl
 
@@ -6,10 +6,11 @@
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/simpeg-research/heagy_2018_emcyl/master)
 [![Azure Notebooks](https://notebooks.azure.com/launch.png)](https://notebooks.azure.com/import/gh/simpeg-research/heagy_2018_emcyl)
 
+<img src="figures/kaufman_zones.png" width=40% align="middle">
 
 ## Overview
 
-Notebooks used to generate the examples shown in "Finite volume electromagnetic modelling on 2D and 3D cylindrical meshes with applications to steel cased wells" by [Lindsey J. Heagy](https://github.com/lheagy) and [Douglas W. Oldenburg](https://github.com/dougoldenburg). There are two directories of notebooks
+This repository contains the notebooks used to generate the examples shown in "Finite volume electromagnetic modelling on 2D and 3D cylindrical meshes with applications to steel cased wells" by [Lindsey J. Heagy](https://github.com/lheagy) and [Douglas W. Oldenburg](https://github.com/dougoldenburg). There are two directories of notebooks
 
 - [notebooks](notebooks): contains the notebooks used to generate figures in the paper
     - [1_TDEM_Comparison_w_Commer](notebooks/1_TDEM_Comparison_w_Commer.ipynb): Figures 3 and 4
@@ -20,7 +21,7 @@ Notebooks used to generate the examples shown in "Finite volume electromagnetic 
     - [6_FDEM_Permeability](notebooks/6_FDEM_Permeability.ipynb): Figures 11 and 12
     - [7_TDEM_Permeability](notebooks/7_TDEM_Permeability.ipynb): Figures 13 and 14
 
- - [appendix_notebooks](appendix_notebooks): supplementary notebooks that contain notebooks examining the impact of formulation choice for the discretization of Maxwell's equations and additional tests for the 2D and 3D cyl codes
+- [appendix_notebooks](appendix_notebooks): supplementary notebooks that contain notebooks examining the impact of formulation choice for the discretization of Maxwell's equations and additional tests for the 2D and 3D cyl codes
      - [compare_2D_and_3D_with_target](appendix_notebooks/compare_2D_and_3D_with_target.ipynb): compares results of 2D and 3D problems for a cylindrically symmetric source and target
      - [compare_3D_FDEM_horizontal_electric_dipole](appendix_notebooks/compare_3D_FDEM_horizontal_electric_dipole.ipynb): compares the 3D cyl code with an analytic for a horizontal electric dipole (FDEM) that is offset from the axis of symmetry
      - [compare_3D_cyl_and_tensor_sources_downhole](appendix_notebooks/compare_3D_cyl_and_tensor_sources_downhole.ipynb): this example compares results from a 3D tensor simulation and a 3D cyl simulation in a grounded-source FDEM experiment
@@ -31,7 +32,7 @@ Notebooks used to generate the examples shown in "Finite volume electromagnetic 
      - [extension_5_FDEM_following_Augustin_Fig3_pipe_radius](appendix_notebooks/extension_5_FDEM_following_Augustin_Fig3_pipe_radius.ipynb): extension of notebook 5 above to examine the impact of pipe radius on the extent of the static shielding region
    
   
-## Running the notebooks
+## Launching the notebooks
  
 ### Online
 The notebooks can be run online through [mybinder](https://mybinder.org/v2/gh/simpeg-research/heagy_2018_emcyl/master) or [azure notebooks](https://notebooks.azure.com/import/gh/simpeg-research/heagy_2018_emcyl). 
@@ -67,6 +68,14 @@ You can then launch Jupyter
 ```
 jupyter notebook
 ```
+
+Jupyter will then launch in your web-browser. 
+
+## Running the notebooks
+
+Each cell of code can be run with `shift + enter` or you can run the entire notebook by selecting `cell`, `Run All` in the toolbar. 
+
+<img src="figures/cell_run_all.png" width=80% align="middle">
 
 For more information on running Jupyter notebooks, see the [Jupyter Documentation](https://jupyter.readthedocs.io/en/latest/)
 
