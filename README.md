@@ -21,7 +21,7 @@ This repository contains the notebooks used to generate the examples shown in "F
     - [6_FDEM_Permeability](notebooks/6_FDEM_Permeability.ipynb): Figures 11 and 12
     - [7_TDEM_Permeability](notebooks/7_TDEM_Permeability.ipynb): Figures 13 and 14
 
- - [appendix_notebooks](appendix_notebooks): supplementary notebooks that contain notebooks examining the impact of formulation choice for the discretization of Maxwell's equations and additional tests for the 2D and 3D cyl codes
+- [appendix_notebooks](appendix_notebooks): supplementary notebooks that contain notebooks examining the impact of formulation choice for the discretization of Maxwell's equations and additional tests for the 2D and 3D cyl codes
      - [compare_2D_and_3D_with_target](appendix_notebooks/compare_2D_and_3D_with_target.ipynb): compares results of 2D and 3D problems for a cylindrically symmetric source and target
      - [compare_3D_FDEM_horizontal_electric_dipole](appendix_notebooks/compare_3D_FDEM_horizontal_electric_dipole.ipynb): compares the 3D cyl code with an analytic for a horizontal electric dipole (FDEM) that is offset from the axis of symmetry
      - [compare_3D_cyl_and_tensor_sources_downhole](appendix_notebooks/compare_3D_cyl_and_tensor_sources_downhole.ipynb): this example compares results from a 3D tensor simulation and a 3D cyl simulation in a grounded-source FDEM experiment
