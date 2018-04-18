@@ -30,17 +30,17 @@ This repository contains the notebooks used to generate the examples shown in "F
      - [cyl3D_DC_vertical_electric_dipole](appendix_notebooks/cyl3D_DC_vertical_electric_dipole.ipynb): compares the 2D and 3D cyl codes with an analytic for a vertical electric dipole (DC) that is offset from the axis of symmetry
      - [electric_3D_EB_HJ](appendix_notebooks/electric_3D_EB_HJ.ipynb): compares the two different discretizations of Maxwell's equations (EB, HJ) for an electric dipole positioned on the axis of symmetry
      - [extension_5_FDEM_following_Augustin_Fig3_pipe_radius](appendix_notebooks/extension_5_FDEM_following_Augustin_Fig3_pipe_radius.ipynb): extension of notebook 5 above to examine the impact of pipe radius on the extent of the static shielding region
-   
-  
+
+
 ## Launching the notebooks
- 
+
 ### Online
-The notebooks can be run online through [mybinder](https://mybinder.org/v2/gh/simpeg-research/heagy_2018_emcyl/master) or [azure notebooks](https://notebooks.azure.com/import/gh/simpeg-research/heagy_2018_emcyl). 
+The notebooks can be run online through [mybinder](https://mybinder.org/v2/gh/simpeg-research/heagy_2018_emcyl/master) or [azure notebooks](https://notebooks.azure.com/import/gh/simpeg-research/heagy_2018_emcyl).
 
 ### Locally
 To run them locally, you will need to have python installed, preferably through [anaconda](https://www.anaconda.com/download/).
 
-You can then clone this reposiroty. From a command line, run 
+You can then clone this reposiroty. From a command line, run
 
 ```
 git clone https://github.com/simpeg-research/heagy_2018_emcyl.git
@@ -69,11 +69,11 @@ You can then launch Jupyter
 jupyter notebook
 ```
 
-Jupyter will then launch in your web-browser. 
+Jupyter will then launch in your web-browser.
 
 ## Running the notebooks
 
-Each cell of code can be run with `shift + enter` or you can run the entire notebook by selecting `cell`, `Run All` in the toolbar. 
+Each cell of code can be run with `shift + enter` or you can run the entire notebook by selecting `cell`, `Run All` in the toolbar.
 
 <img src="figures/cell_run_all.png" width=80% align="middle">
 
@@ -81,8 +81,8 @@ For more information on running Jupyter notebooks, see the [Jupyter Documentatio
 
 ## Issues
 
-If you run into problems or bugs, please let us know by [creating an issue](https://github.com/simpeg-research/heagy_2018_emcyl/issues/new) in this repository. 
+If you run into problems or bugs, please let us know by [creating an issue](https://github.com/simpeg-research/heagy_2018_emcyl/issues/new) in this repository.
 
 ## License
 
-These notebooks are licensed under the [MIT License](/LICENSE) which allows academic and commercial re-use and adaptation of this work.  
+These notebooks are licensed under the [MIT License](/LICENSE) which allows academic and commercial re-use and adaptation of this work.
