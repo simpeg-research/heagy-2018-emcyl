@@ -1,8 +1,13 @@
+**| [Overview](#overview) | [Running the notebooks](#running-the-notebooks) | [Issues](#issues) | [License](#license) |**
+
 # heagy_2018_emcyl
 
 [![Build Status](https://travis-ci.org/simpeg-research/heagy_2018_emcyl.svg?branch=master)](https://travis-ci.org/simpeg-research/heagy_2018_emcyl)
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/simpeg-research/heagy_2018_emcyl/master)
 [![Azure Notebooks](https://notebooks.azure.com/launch.png)](https://notebooks.azure.com/import/gh/simpeg-research/heagy_2018_emcyl)
+
+
+## Overview
 
 Notebooks used to generate the examples shown in "Finite volume electromagnetic modelling on 2D and 3D cylindrical meshes with applications to steel cased wells" by [Lindsey J. Heagy](https://github.com/lheagy) and [Douglas W. Oldenburg](https://github.com/dougoldenburg). There are two directories of notebooks
 
@@ -24,3 +29,51 @@ Notebooks used to generate the examples shown in "Finite volume electromagnetic 
      - [cyl3D_DC_vertical_electric_dipole](appendix_notebooks/cyl3D_DC_vertical_electric_dipole.ipynb): compares the 2D and 3D cyl codes with an analytic for a vertical electric dipole (DC) that is offset from the axis of symmetry
      - [electric_3D_EB_HJ](appendix_notebooks/electric_3D_EB_HJ.ipynb): compares the two different discretizations of Maxwell's equations (EB, HJ) for an electric dipole positioned on the axis of symmetry
      - [extension_5_FDEM_following_Augustin_Fig3_pipe_radius](appendix_notebooks/extension_5_FDEM_following_Augustin_Fig3_pipe_radius.ipynb): extension of notebook 5 above to examine the impact of pipe radius on the extent of the static shielding region
+   
+  
+## Running the notebooks
+ 
+### Online
+The notebooks can be run online through [mybinder](https://mybinder.org/v2/gh/simpeg-research/heagy_2018_emcyl/master) or [azure notebooks](https://notebooks.azure.com/import/gh/simpeg-research/heagy_2018_emcyl). 
+
+### Locally
+To run them locally, you will need to have python installed, preferably through [anaconda](https://www.anaconda.com/download/).
+
+You can then clone this reposiroty. From a command line, run 
+
+```
+git clone https://github.com/simpeg-research/heagy_2018_emcyl.git
+```
+
+Then `cd` into the `heagy_2018_emcyl`
+
+```
+cd heagy_2018_emcyl
+```
+
+To setup your software environment, we recommend you use the provided conda environment
+
+```
+conda env create -f environment.yml
+source activate emcyl-environment
+```
+
+alternatively, you can install dependencies through pypi
+```
+pip install -r requirements.txt
+```
+
+You can then launch Jupyter
+```
+jupyter notebook
+```
+
+For more information on running Jupyter notebooks, see the [Jupyter Documentation](https://jupyter.readthedocs.io/en/latest/)
+
+## Issues
+
+If you run into problems or bugs, please let us know by [creating an issue](https://github.com/simpeg-research/heagy_2018_emcyl/issues/new) in this repository. 
+
+## License
+
+These notebooks are licensed under the [MIT License](/LICENSE) which allows academic and commercial re-use and adaptation of this work.  
