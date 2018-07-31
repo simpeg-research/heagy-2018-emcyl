@@ -3,7 +3,7 @@
 # Finite volume electromagnetic modelling on 2D and 3D cylindrical meshes with applications to steel cased wells
 
 [![Build Status](https://travis-ci.org/simpeg-research/heagy-2018-emcyl.svg?branch=master)](https://travis-ci.org/simpeg-research/heagy-2018-emcyl)
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/simpeg-research/heagy-2018-emcyl/master)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/simpeg-research/heagy-2018-emcyl/master?filepath=index.ipynb)
 [![Azure Notebooks](https://notebooks.azure.com/launch.png)](https://notebooks.azure.com/import/gh/simpeg-research/heagy-2018-emcyl)
 [![DOI](https://zenodo.org/badge/127807359.svg)](https://zenodo.org/badge/latestdoi/127807359)
 [![License](https://img.shields.io/github/license/simpeg-research/heagy-2018-emcyl.svg)](https://github.com/simpeg-research/heagy-2018-emcyl/blob/master/LICENSE)
@@ -39,7 +39,7 @@ This repository contains the notebooks used to generate the examples shown in "F
 ## Launching the notebooks
 
 ### Online
-The notebooks can be run online through [mybinder](https://mybinder.org/v2/gh/simpeg-research/heagy_2018_emcyl/master) or [azure notebooks](https://notebooks.azure.com/import/gh/simpeg-research/heagy_2018_emcyl).
+The notebooks can be run online through [mybinder](https://mybinder.org/v2/gh/simpeg-research/heagy_2018_emcyl/master?filepath=index.ipynb) or [azure notebooks](https://notebooks.azure.com/import/gh/simpeg-research/heagy_2018_emcyl).
 
 ### Locally
 To run them locally, you will need to have python installed, preferably through [anaconda](https://www.anaconda.com/download/).
