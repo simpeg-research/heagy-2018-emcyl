@@ -39,7 +39,7 @@ This repository contains the notebooks used to generate the examples shown in "F
 ## Launching the notebooks
 
 ### Online
-The notebooks can be run online through [mybinder](https://mybinder.org/v2/gh/simpeg-research/heagy_2018_emcyl/master?filepath=index.ipynb) or [azure notebooks](https://notebooks.azure.com/import/gh/simpeg-research/heagy_2018_emcyl).
+The notebooks can be run online through [mybinder](https://mybinder.org/v2/gh/simpeg-research/heagy-2018-emcyl/master?filepath=index.ipynb) or [azure notebooks](https://notebooks.azure.com/import/gh/simpeg-research/heagy-2018-emcyl).
 
 ### Locally
 To run them locally, you will need to have python installed, preferably through [anaconda](https://www.anaconda.com/download/).
