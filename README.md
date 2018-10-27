@@ -1,4 +1,4 @@
-**| [Overview](#overview) | [Launching the notebooks](#launching-the-notebooks) | [Running the notebooks](#running-the-notebooks) | [Issues](#issues) | [License](#license) |**
+**| [Overview](#overview) | [Launching the notebooks](#launching-the-notebooks) | [Running the notebooks](#running-the-notebooks) | [Citation](#citation) | [Issues](#issues) | [License](#license) |**
 
 # Modeling electromagnetics on cylindrical meshes with applications to steel-cased wells
 
@@ -94,6 +94,23 @@ Each cell of code can be run with `shift + enter` or you can run the entire note
 <img src="figures/cell_run_all.png" width=80% align="middle">
 
 For more information on running Jupyter notebooks, see the [Jupyter Documentation](https://jupyter.readthedocs.io/en/latest/)
+
+## Citation
+
+Heagy, L. J., & Oldenburg, D. W. (2018). Modeling electromagnetics on cylindrical meshes with applications to steel-cased wells. http://arxiv.org/abs/1804.07991
+
+```
+@article{Heagy2018a,
+    archivePrefix = {arXiv},
+    arxivId = {1804.07991},
+    author = {Heagy, Lindsey J. and Oldenburg, Douglas W.},
+    eprint = {1804.07991},
+    month = {apr},
+    title = {{Modeling electromagnetics on cylindrical meshes with applications to steel-cased wells}},
+    url = {http://arxiv.org/abs/1804.07991},
+    year = {2018}
+}
+```
 
 ## Issues
 
