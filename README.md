@@ -9,7 +9,6 @@
 [![License](https://img.shields.io/github/license/simpeg-research/heagy-2018-emcyl.svg)](https://github.com/simpeg-research/heagy-2018-emcyl/blob/master/LICENSE)
 [![SimPEG](https://img.shields.io/badge/powered%20by-SimPEG-blue.svg)](http://simpeg.xyz)
 
-
 <img src="figures/kaufman_zones.png" width=40% align="middle">
 
 ## Overview
