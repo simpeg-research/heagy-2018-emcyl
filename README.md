@@ -13,16 +13,29 @@
 
 ## Overview
 
-This repository contains the notebooks used to generate the examples shown in "Modeling electromagnetics on cylindrical meshes with applications to steel-cased wellss" by [Lindsey J. Heagy](https://github.com/lheagy) and [Douglas W. Oldenburg](https://github.com/dougoldenburg) and Chapter 3 of the thesis [Electromagnetic imaging of subsurface injections](https://github.com/lheagy/phd-thesis). There are two directories of notebooks
+This repository contains the notebooks used to generate the examples shown in "Modeling electromagnetics on cylindrical meshes with applications to steel-cased wells" by [Lindsey J. Heagy](https://github.com/lheagy) and [Douglas W. Oldenburg](https://github.com/dougoldenburg) and Chapter 3 of the thesis [Electromagnetic imaging of subsurface injections](https://github.com/lheagy/phd-thesis). There are two directories of notebooks
 
-- [notebooks](notebooks): contains the notebooks used to generate figures in the paper
-    - [1_TDEM_Comparison_w_Commer](notebooks/1_TDEM_Comparison_w_Commer.ipynb): Figures 3 and 4
-    - [2_DC_Kaufman_infinite_well](notebooks/2_DC_Kaufman_infinite_well.ipynb): Figure 5
-    - [3_DC_Kaufman_finite_well](notebooks/3_DC_Kaufman_finite_well.ipynb): Figure 6
-    - [4_TDEM_current_plots](notebooks/4_TDEM_current_plots.ipynb): Figure 7
-    - [5_FDEM_following_Augustin_Fig3](notebooks/5_FDEM_following_Augustin_Fig3.ipynb): Figures 8 - 10
-    - [6_FDEM_Permeability](notebooks/6_FDEM_Permeability.ipynb): Figures 11 and 12
-    - [7_TDEM_Permeability](notebooks/7_TDEM_Permeability.ipynb): Figures 13 and 14
+- [notebooks](notebooks): contains the notebooks used to generate figures in the paper and thesis
+    - [1_TDEM_Comparison_w_Commer](notebooks/1_TDEM_Comparison_w_Commer.ipynb): 
+        - Figures 3 and 4 in Heagy & Oldenburg (2018)
+        - Figures 3.3 and 3.4 in the thesis
+    - [2_DC_Kaufman_infinite_well](notebooks/2_DC_Kaufman_infinite_well.ipynb): 
+        - Figure 5 in Heagy & Oldenburg (2018)
+        - Figure 3.5 in the thesis
+    - [3_DC_Kaufman_finite_well](notebooks/3_DC_Kaufman_finite_well.ipynb): 
+        - Figure 6 in Heagy & Oldenburg (2018)
+        - Figure 3.6 in the thesis
+    - [4_TDEM_current_plots](notebooks/4_TDEM_current_plots.ipynb):
+        - Figure 7 in Heagy & Oldenburg (2018)
+    - [5_FDEM_following_Augustin_Fig3](notebooks/5_FDEM_following_Augustin_Fig3.ipynb): 
+        - Figures 8 - 10 in Heagy & Oldenburg (2018)
+        - Figures 3.7 - 3.9 in the thesis
+    - [6_FDEM_Permeability](notebooks/6_FDEM_Permeability.ipynb):
+        - Figures 11 and 12 in Heagy & Oldenburg (2018)
+        - Figures 3.10 and 3.11 in the thesis
+    - [7_TDEM_Permeability](notebooks/7_TDEM_Permeability.ipynb): 
+        - Figures 13 and 14 in Heagy & Oldenburg (2018)
+        - Figures 3.12 and 3.12 in the thesis
 
 - [appendix_notebooks](appendix_notebooks): supplementary notebooks that contain notebooks examining the impact of formulation choice for the discretization of Maxwell's equations and additional tests for the 2D and 3D cyl codes
      - [compare_2D_and_3D_with_target](appendix_notebooks/compare_2D_and_3D_with_target.ipynb): compares results of 2D and 3D problems for a cylindrically symmetric source and target
