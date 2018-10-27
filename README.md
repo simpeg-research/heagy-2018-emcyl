@@ -1,6 +1,6 @@
 **| [Overview](#overview) | [Launching the notebooks](#launching-the-notebooks) | [Running the notebooks](#running-the-notebooks) | [Issues](#issues) | [License](#license) |**
 
-# Finite volume electromagnetic modelling on 2D and 3D cylindrical meshes with applications to steel cased wells
+# Modeling electromagnetics on cylindrical meshes with applications to steel-cased wells
 
 [![Build Status](https://travis-ci.org/simpeg-research/heagy-2018-emcyl.svg?branch=master)](https://travis-ci.org/simpeg-research/heagy-2018-emcyl)
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/simpeg-research/heagy-2018-emcyl/master?filepath=index.ipynb)
@@ -14,7 +14,7 @@
 
 ## Overview
 
-This repository contains the notebooks used to generate the examples shown in "Finite volume electromagnetic modelling on 2D and 3D cylindrical meshes with applications to steel cased wells" by [Lindsey J. Heagy](https://github.com/lheagy) and [Douglas W. Oldenburg](https://github.com/dougoldenburg). There are two directories of notebooks
+This repository contains the notebooks used to generate the examples shown in "Modeling electromagnetics on cylindrical meshes with applications to steel-cased wellss" by [Lindsey J. Heagy](https://github.com/lheagy) and [Douglas W. Oldenburg](https://github.com/dougoldenburg) and Chapter 3 of the thesis [Electromagnetic imaging of subsurface injections](https://github.com/lheagy/phd-thesis). There are two directories of notebooks
 
 - [notebooks](notebooks): contains the notebooks used to generate figures in the paper
     - [1_TDEM_Comparison_w_Commer](notebooks/1_TDEM_Comparison_w_Commer.ipynb): Figures 3 and 4
