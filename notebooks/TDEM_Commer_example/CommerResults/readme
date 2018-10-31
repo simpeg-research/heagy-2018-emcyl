@@ -1,0 +1,16 @@
+The file fefd.data contains what you need. Columns are 
+Time t, Reference-data, TEM3D-data, difference
+meaning
+Time t, FE, FDTD, %-difference
+
+The Receiver positions are indicated for each data block, for example:
+#Rec-position:      1 ,data-pnts.:  101 ,components: Ex,Ey,Ez
+#x,y,z:       5.000000      0.000000      0.000000
+
+
+If you want to recreate the plot:
+gnuplot < mplot.gnu
+
+Happy comparing
+
+
