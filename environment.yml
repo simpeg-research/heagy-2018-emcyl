@@ -4,6 +4,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - python=3.6
   - numpy
   - scipy
   - matplotlib
@@ -12,6 +13,5 @@ dependencies:
   - pip:
     - pymatsolver
     - geoana
-    - discretize
     - SimPEG
     - git+https://github.com/simpeg-research/casingSimulations.git
