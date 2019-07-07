@@ -7,5 +7,5 @@ ipywidgets
 geoana==0.0.5
 pymatsolver==0.1.2
 discretize==0.3.8
-SimPEG==0.10.4
+SimPEG==0.11.5
 git+https://github.com/simpeg-research/casingSimulations.git@0.0.7
